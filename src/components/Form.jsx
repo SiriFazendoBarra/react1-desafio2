@@ -23,7 +23,7 @@ const Form = () => {
 
     const checkSpan = () =>{
 
-        if (name == '' || password == '') {
+        if (name === '' || password === '') {
             setError(true)
             return
         }
